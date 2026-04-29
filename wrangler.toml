@@ -1,0 +1,9 @@
+
+name = "forgeos-worker"
+main = "workers/index.js"
+compatibility_date = "2026-04-28"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "forgeos-db"
+database_id = "REPLACE_AFTER_CREATE"

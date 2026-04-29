@@ -1,0 +1,8 @@
+
+1. Push forgeos-cloud folder to GitHub
+2. Connect pages folder to Cloudflare Pages
+3. Create Worker from workers/index.js
+4. Create D1 database
+5. Run schema.sql
+6. Bind DB in wrangler.toml
+7. Go Live
