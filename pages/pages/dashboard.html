@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>Dashboard</title>
+<style>
+body{font-family:Arial;padding:40px;background:#f4f6fa}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#fff;padding:22px;border-radius:16px}
+table{width:100%;margin-top:25px;border-collapse:collapse;background:#fff}
+td,th{padding:12px;border-bottom:1px solid #eee}
+</style>
+</head>
+<body>
+
+<h1>ForgeOS CRM Dashboard</h1>
+
+<div class='grid'>
+<div class='card'><h3>Total Leads</h3><h2>124</h2></div>
+<div class='card'><h3>Revenue</h3><h2>₹42,500</h2></div>
+<div class='card'><h3>Pending</h3><h2>8</h2></div>
+<div class='card'><h3>Repeat Clients</h3><h2>32%</h2></div>
+</div>
+
+<table>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Service</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+<tr><td>101</td><td>Rahul</td><td>Premium Blog</td><td>Pending</td><td>Approve</td></tr>
+<tr><td>102</td><td>Anita</td><td>Landing Page</td><td>Paid</td><td>Deliver</td></tr>
+<tr><td>103</td><td>Karan</td><td>Pitch Deck</td><td>Preview Sent</td><td>Follow Up</td></tr>
+</table>
+
+</body>
+</html>
